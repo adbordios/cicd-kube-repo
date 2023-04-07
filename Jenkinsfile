@@ -27,7 +27,7 @@ pipeline {
 
         stage('UNIT TEST'){
             steps {
-                sh '/usr/lib/jvm/java-8-openjdk-amd64/bin/javah && mvn test -X'
+                sh 'mvn test -X'
             }
         }
 
