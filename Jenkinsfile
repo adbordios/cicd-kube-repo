@@ -7,7 +7,7 @@ pipeline {
     }
 */
     environment {
-        registry = "arvinbordios/vproappkubeCI"
+        registry = "arvinbordios/vproappkubeci"
         registryCredential = 'dockerhub'
     }
 
